@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - Image Tags</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .players-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .player-card {
+            background: white;
+            border-radius: 1px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            width: 220px;
+            text-align: center;
+        }
+        .player-card img {
+            width: 100%;
+            border-radius: 1px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .player-info {
+            margin-top: 10px;
+        }
+        .player-info h3 {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .player-info p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .player-info a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #E4405F; /* Instagram Color */
+            transition: 0.3s;
+        }
+        .player-info a:hover {
+            color: #C13584;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Players Information</h2>
+    <div class="players-container">
+        <div class="player-card">
+            <img src="download.jpg" alt="Rohit Sharma">
+            <div class="player-info">
+                <h3>Rohit Sharma</h3>
+                <p>Batsman - <img style="height:45px; width:50px;padding:1px;display:flex" src="download.png">(C)</p>
+                <a href="https://www.instagram.com/rohitsharma45/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="player-card">
+            <img src="virat.jpg" alt="Virat Kohli">
+            <div class="player-info">
+                <h3>Virat Kohli</h3>
+                <p>Batsman - <img style="height:45px; width:50px;padding:1px;align-item:center;display:flex" src="download.png"></p>
+                <a href="https://www.instagram.com/virat.kohli/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="player-card">
+            <img src="Rishabh.jpg" alt="MS Dhoni">
+            <div class="player-info">
+                <h3>Rishabh Pant</h3>
+                <p>Wicketkeeper - India</p>
+                <a href="https://www.instagram.com/rishabpant/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+         <div class="player-card">
+            <img src="Sky.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Suryakumar Yadav</h3>
+                <p>Batsman - India</p>
+                <a href="https://www.instagram.com/surya_14kumar/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+       <div class="player-card">
+            <img src="Hardik.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Hardik Pandya</h3>
+                <p>All-rounder - India</p>
+                <a href="https://www.instagram.com/hardikpandya93/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="player-card">
+            <img src="Dube.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Shivam Dube</h3>
+                <p>Batsman - India</p>
+                <a href="https://www.instagram.com/dubeshivam/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="player-card">
+            <img src="Patel.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Axer Patel</h3>
+                <p>All-rounder - India</p>
+                <a href="https://www.instagram.com/akshar.patel/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="player-card">
+            <img src="Jadeja.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Ravindra Jadeja</h3>
+                <p>All-rounder - India</p>
+                <a href="https://www.instagram.com/royalnavghan/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="player-card">
+            <img src="Kuldeep.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Kuldeep Yadav</h3>
+                <p>Bowler - India</p>
+                <a https://www.instagram.com/kuldeep_18/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="player-card">
+            <img src="Boom.jpg" alt="Jasprit Bumrah">
+            <div class="player-info">
+                <h3>Jasprit Bumrah</h3>
+                <p>Bowler - India</p>
+                <a href="https://www.instagram.com/jaspritb1/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="player-card">
+            <img src="Singh.jpg" alt="Suryakumar Yadav">
+            <div class="player-info">
+                <h3>Ashrdeep Singh</h3>
+                <p>Bowler - India</p>
+                <a href="https://www.instagram.com/_arshdeep.singh__/?hl=ta" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
